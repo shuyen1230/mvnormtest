@@ -1,4 +1,4 @@
-#	mshapiro.test.R,v 1.7 2003/09/23 20:40:08 sjarek Exp	
+#	$Id: mshapiro.test.R,v 1.7 2003/09/23 20:40:08 sjarek Exp $	
 mshapiro.test <- function(U) {
 
     if(!is.matrix(U))

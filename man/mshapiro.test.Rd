@@ -1,4 +1,4 @@
-%	mshapiro.test.Rd,v 1.6 2003/09/27 09:15:24 sjarek Exp	
+%	$Id: mshapiro.test.Rd,v 1.8 2004/09/23 10:01:40 sjarek Exp $	
 \name{mshapiro.test}
 \alias{mshapiro.test}
 \title{Shapiro-Wilk Multivariate Normality Test}
@@ -21,8 +21,8 @@ mshapiro.test(U)
 }
 \author{ S³awomir Jarek (\email{sjarek@eranet.pl})}
 \references{
-  Czes³aw Domañski (1998)
-  W³asno¶ci testu wielowymiarowej normalno¶ci Shapiro-Wilka i jego 
+  Czeslaw Domanski (1998)
+  Wlasnosci testu wielowymiarowej normalnosci Shapiro-Wilka i jego 
   zastosowanie.
   \emph{Cracow University of Economics Rector's Lectures}, \bold{No. 37}.
   
@@ -45,7 +45,6 @@ mshapiro.test(U)
 }
 \examples{
 library(mvnormtest)
-library(ts)
 data(EuStockMarkets)
 
 C <- t(EuStockMarkets[15:29,1:4])

@@ -1,10 +1,21 @@
+2004-09-23  Slawomir Jarek  <sjarek@eranet.pl>
+
+	* man/mshapiro.test.Rd, R/zzz.R, DESCRIPTION:
+	The changes coused by moving functions from library ctest to stats.
+
 2003-09-27  Slawomir Jarek  <sjarek@eranet.pl>
 
-	* inst/ChangeLog: Added a version Id in ChangeLog.
+	* inst/ChangeLog: A file corrected.
 
-	* inst/ChangeLog: Added a first version of ChangeLog.
+	* R/zzz.R: Corrected some errors.
 
-	* man/mshapiro.test.Rd: Added a version number of the file.
+	* inst/ChangeLog: Updated date.:
+
+	* inst/ChangeLog: Added version Id in ChangeLog.
+
+	* inst/ChangeLog: Added first version of ChangeLog.
+
+	* man/mshapiro.test.Rd: Added version number of the file.
 
 	* R/zzz.R: Added initial call.
 
@@ -23,7 +34,7 @@
 
 	* man/mshapiro.test.Rd: Comments and sugestions prof. Kurt Hornik.
 
-	* DESCRIPTION: Comments and sugestions prof. Kurt Hornik.
+	* DESCRIPTION: Comments and sugestions from prof. Kurt Hornik.
 
 2003-05-08  Slawomir Jarek  <sjarek@eranet.pl>
 
@@ -32,9 +43,6 @@
 
 2003-05-05  Slawomir Jarek  <sjarek@eranet.pl>
 
-	* example/mwolf2.R, example/wolf4bdane.txt, data/wolf4bdane.txt:
-	Removed old and temporary dates.
-
 	* R/mshapiro.test.R: Added version Id.
 
 2003-05-03  Slawomir Jarek  <sjarek@eranet.pl>
@@ -42,4 +50,15 @@
 	* R/mshapiro.test.R:
 	Corrected tolerance of the calculation in solve to tol=1e-10 z 1e-7, errors in statistical calculation.
 
-#	ChangeLog,v 1.3 2003/09/27 10:02:54 sjarek Exp
+2003-05-01  Slawomir Jarek  <sjarek@eranet.pl>
+
+	* R/mshapiro.test.R: Removed old comments and probes.
+
+	* R/mshapiro.test.R: First actualisation.
+
+	* DESCRIPTION, INDEX, R/mshapiro.test.R, inst/COPYING, man/mshapiro.test.Rd:
+	First version of the multivtest.
+
+	* DESCRIPTION, INDEX, R/mshapiro.test.R, inst/COPYING, man/mshapiro.test.Rd:
+	New file.
+
