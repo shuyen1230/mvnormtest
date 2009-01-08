@@ -1,6 +1,7 @@
-%	$Id: mshapiro.test.Rd,v 1.9 2005/04/02 13:41:11 sjarek Exp $	
+%	$Id: mshapiro.test.Rd,v 1.10 2009-02-09 22:25:24 sjarek Exp $	
 \name{mshapiro.test}
 \alias{mshapiro.test}
+\encoding{latin1}
 \title{Shapiro-Wilk Multivariate Normality Test}
 \description{
   Performs the Shapiro-Wilk test for multivariate normality.
@@ -19,7 +20,7 @@ mshapiro.test(U)
   \item{method}{the character string \code{"Shapiro-Wilk normality test"}.}
   \item{data.name}{a character string giving the name(s) of the data.}
 }
-\author{ S³awomir Jarek (\email{slawomir.jarek@gallus.edu.pl})}
+\author{ Slawomir Jarek (\email{slawomir.jarek@gallus.edu.pl})}
 \references{
   Czeslaw Domanski (1998)
   Wlasnosci testu wielowymiarowej normalnosci Shapiro-Wilka i jego 
