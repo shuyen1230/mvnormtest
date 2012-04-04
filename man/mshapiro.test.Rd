@@ -42,7 +42,7 @@ mshapiro.test(U)
 }
 \seealso{
   \code{\link{shapiro.test}} for univariate samples,
-  \code{\link[base:qqnorm]{qqnorm}} for producing a normal quantile-quantile plot.  
+  \code{\link[stats:qqnorm]{qqnorm}} for producing a normal quantile-quantile plot.  
 }
 \examples{
 library(mvnormtest)
