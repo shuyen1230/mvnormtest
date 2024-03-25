@@ -1,13 +1,18 @@
 Package: mvnormtest
-Version: 0.1-9
-Date: 2012-04-04
-Title: Normality test for multivariate variables
-Author: Slawomir Jarek
-Maintainer: Slawomir Jarek <slawomir.jarek@gallus.edu.pl>
-Description: Generalization of shapiro-wilk test for multivariate
-        variables.
+Title: Normality Test for Multivariate Variables
+Version: 0.1-9-3
+Date: 2024-03-06
+Authors@R: c(
+  person("Sławomir", "Jarek", email = "slawomir.jarek@uekat.pl", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-4831-2583")),
+  person("Grzegorz", "Jarek", email = "gjarek48@gmail.com", role = c("ctb")))
+Description: Generalization of Shapiro-Wilk test for multivariate variables.
 License: GPL
+Encoding: UTF-8
 Depends: stats
-Packaged: 2012-04-11 08:29:05 UTC; root
+NeedsCompilation: no
+Packaged: 2024-03-25 08:45:49 UTC; UE
+Author: Sławomir Jarek [aut, cre] (<https://orcid.org/0000-0003-4831-2583>),
+  Grzegorz Jarek [ctb]
+Maintainer: Sławomir Jarek <slawomir.jarek@uekat.pl>
 Repository: CRAN
-Date/Publication: 2012-04-12 11:49:53
+Date/Publication: 2024-03-25 20:10:02 UTC

@@ -1,4 +1,4 @@
-#	$Id: mshapiro.test.R,v 1.7 2003-09-23 20:40:08 sjarek Exp $	
+#	$Id: mshapiro.test.R,v 1.7 2024-03-23 20:40:08 sjarek Exp $	
 mshapiro.test <- function(U) {
 
     if(!is.matrix(U))
@@ -12,8 +12,8 @@ mshapiro.test <- function(U) {
 	stop("all `U[]' are identical")
 
     Us       <- apply(U,1,mean)
-    R        <- U-Us
-
+#    R        <- U-Us
+    R       <- sweep(U,1,Us)
     M.1     <- solve(R%*%t(R),tol=1e-18)
     Rmax    <- diag(t(R)%*%M.1%*%R)
     C       <- M.1%*%R[,which.max(Rmax)]
